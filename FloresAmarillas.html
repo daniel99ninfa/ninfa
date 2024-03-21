@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Flores Amarillas</title>
+    <style>
+        /* Estilos para el cuerpo de la página */
+        body {
+            background: linear-gradient(135deg, #f6e6f7, #e0f7fa, #ffecb3); /* Paleta de colores pastel */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Estilos para el contenedor del ramo */
+        .bouquet {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            width: 70%;
+            position: relative;
+        }
+
+        /* Estilos para la flor */
+        .flower {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin: 20px; /* Espacio entre las flores */
+        }
+
+        /* Estilos para los pétalos */
+        .petal {
+            position: absolute;
+            width: 30px;
+            height: 70px;
+            background-color: #ffdd00; /* Amarillo */
+            border-radius: 50px 50px 0 0;
+            transform-origin: 50% 100%;
+            top: 10px;
+            left: 35px;
+        }
+
+        /* Posiciones de los pétalos */
+        .petal:nth-child(1) { transform: rotate(0deg); }
+        .petal:nth-child(2) { transform: rotate(45deg); }
+        .petal:nth-child(3) { transform: rotate(90deg); }
+        .petal:nth-child(4) { transform: rotate(135deg); }
+        .petal:nth-child(5) { transform: rotate(180deg); }
+        .petal:nth-child(6) { transform: rotate(225deg); }
+        .petal:nth-child(7) { transform: rotate(270deg); }
+        .petal:nth-child(8) { transform: rotate(315deg); }
+
+        /* Estilos para el centro de la flor */
+        .center {
+            width: 40px;
+            height: 40px;
+            background-color: #ff0000; /* Rojo */
+            border-radius: 50%;
+            position: absolute;
+            top: 55px; /* Ajuste de posición */
+            left: 30px;
+        }
+
+        /* Estilos para los tallos */
+        .stem {
+            width: 10px;
+            height: 300px;
+            background-color: #008000; /* Verde */
+            position: absolute;
+            bottom: -300px; /* Ajuste para que el tallo esté bajo la flor */
+            left: 45px; /* Ajuste para que el tallo esté en el centro de la flor */
+            border-radius: 10px;
+        }
+
+        /* Estilos para el texto romántico */
+        .romantic-text {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            color: #000; /* Color del texto negro */
+        }
+    </style>
+</head>
+<body>
+    <!-- Texto Romántico -->
+    <div class="romantic-text">
+        <p>"Eres lo que un dia le pedi a Dios."</p>
+    </div>
+
+    <!-- Ramo de flores -->
+    <div class="bouquet">
+        <!-- Flor 1 -->
+        <div class="flower">
+            <!-- Tallo -->
+            <div class="stem"></div>
+            <!-- Pétalos -->
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+        <!-- Flor 2 -->
+        <div class="flower">
+            <!-- Tallo -->
+            <div class="stem"></div>
+            <!-- Pétalos -->
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+        <!-- Flor 3 -->
+        <div class="flower">
+            <!-- Tallo -->
+            <div class="stem"></div>
+            <!-- Pétalos -->
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+        <!-- Flor 4 -->
+        <div class="flower">
+            <!-- Tallo -->
+            <div class="stem"></div>
+            <!-- Pétalos -->
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+        <!-- Flor 5 -->
+        <div class="flower">
+            <!-- Tallo -->
+            <div class="stem"></div>
+            <!-- Pétalos -->
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <!-- Centro de la flor -->
+            <div class="center"></div>
+        </div>
+    </div>
+    <!-- Text
